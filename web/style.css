@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+/*<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>*/
+@font-face {
+    font-family: 'fontelogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+
+}
+
+body{
+    background-color: #C04337;
+    color: rgba(0,0,0,0.5);
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+frm {
+   position: absolute;
+    top: 100px;
+    left: 120px;
+ 
+    
+    
+}
+form2 {
+   position: absolute;
+    top: 100px;
+    left: 120px;
+ 
+    
+    
+}
+
+
+header#cabecalho img#icone{
+    position: absolute;
+    top: 15px;
+    left: 1055px;
+}
+ header#cabecalho img#centro2{
+    position: absolute;
+    top: 80px;
+    left: 90px;
+
+  
+}
+ header#cabecalho img#botao{
+    position: absolute;
+    top: 535px;
+    left: 750px;
+
+  
+}
+ header#cabecalho img#logados{
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+
+  
+}
+ header#cabecalho img#barra{
+    position: absolute;
+    top: 530px;
+    left: 400px;
+
+  
+}
+
+
+header#cabecalho h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    padding: 25px;
+    margin: 10px;
+
+}
+
+
+#centro{
+    padding: 10px 10px 10px 10px;
+    margin: 1px 1px 1px 1px;
+        
+}
+
+#frm1{
+    position: absolute;
+    top: 145px;
+    margin: 1px 1px 1px 1px;
+}
+
+#frm2{
+    position: absolute;
+    top: 455px;
+    left: 190px;
+}
+
+
+#frm3{
+    position: absolute;
+    top: 150px;
+    left: 715px;
+}
+
+#enviar {
+    position: absolute;
+    top: 600px;
+}
+
